@@ -52,7 +52,7 @@ h5 {
   }
   
   :root {
-    --main-bg-color: #021327;
+    --main-bg-color: #000000;
     --sec-color: #3C67FF;
     --text-color: #ffffff; 
     --text-color-p: RGB(184, 186, 204);
@@ -69,6 +69,7 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: bottom;
   }
 
   .hero_section a {
@@ -97,6 +98,7 @@ font-weight: bold;
   .email-security .card {
     background-color: #ffffff0a;
     margin: 10px 0px;
+    height: 186px;
   }
 
   .email-security .card h5 {
@@ -105,7 +107,7 @@ font-weight: bold;
 
 
   .being_phished {
-    background-color: #041C39;
+    /* background-color: #041C39; */
     padding: 100px 0px;
     /* background-image: url('../images/Surfaces_Cloud_LP_Hero@2x.png'); */
     background-size: cover;
@@ -126,8 +128,8 @@ width: 550px;
     height:550px;
     border-radius: 100%;
     padding: 90px;
-    background-color: var(--main-bg-color);
-    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 20px, rgba(255, 255, 255, 0.1) 0px 0px 20px, rgba(255, 255, 255, 0.1) 0px 0px 20px;
+    background-color: #041C39;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 20px, rgba(255, 255, 255, 0.3) 0px 0px 20px, rgba(255, 255, 255, 0.3) 0px 0px 20px;
   }
 
   .being_phished .card {
@@ -156,34 +158,40 @@ text-align: left;
    display: flex;
    justify-content: center;
    align-items: center;
-    background-image: url('../images/home14-bg2.png');
+    /* background-image: url('../images/home14-bg2.png'); */
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+ 
   
 
   .contact_form .contact-bg {
     height: 80vh;
 /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
+background: rgb(255 255 255 / 9%);
+
 border-radius: 6px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
 box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
   }
 
 
-  .bg-img {
+  /* .bg-img {
     background-image: url('https://img.freepik.com/free-photo/female-hacker-cracking-binary-code_53876-96301.jpg?w=1060&t=st=1680777695~exp=1680778295~hmac=97ef6701ae0ab00f70532c7a15a4d3c19b3adfae1cec8d328b6bda540691026b');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:0px 6px 6px 0px;
-  }
+  } */
 
   .contact_form .info-contact {
     padding: 50px;
+  }
+
+  .form_data {
+    padding: 40px 40px;
   }
 
   .form_data .form-control:focus {
@@ -261,7 +269,7 @@ video.fullscreen {
     z-index: 0;
     object-fit: cover;
     width: 100%;
-    height: 60vh;
+    height: 80vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -272,9 +280,9 @@ video.fullscreen {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:  rgba(0, 0, 0, 0.7);
+    background-color:  rgba(0, 0, 0, 0.3);
     padding: 0px;
-    height: 60vh;
+    height: 80vh;
 }
 
 .box_email {
