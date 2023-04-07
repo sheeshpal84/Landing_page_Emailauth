@@ -62,6 +62,7 @@ h5 {
   
 
   .hero_section {
+    margin-top: -71px !important;
     height: 100vh;
     background-image: url('../images/bg.png');
     background-size: cover;
@@ -151,26 +152,21 @@ text-align: left;
     font-size: 14px;
   }
 
-
-
   .contact_form {
     height: 100vh;
    display: flex;
    justify-content: center;
    align-items: center;
-    /* background-image: url('../images/home14-bg2.png'); */
+    background-image: url('../images/home14-bg2.png');
     background-repeat: no-repeat;
     background-size: cover;
   }
-
- 
-  
 
   .contact_form .contact-bg {
     height: 80vh;
 /* From https://css.glass */
 background: rgb(255 255 255 / 9%);
-
+overflow: hidden;
 border-radius: 6px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
@@ -179,19 +175,20 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 
   }
 
 
-  /* .bg-img {
+  .bg-img {
     background-image: url('https://img.freepik.com/free-photo/female-hacker-cracking-binary-code_53876-96301.jpg?w=1060&t=st=1680777695~exp=1680778295~hmac=97ef6701ae0ab00f70532c7a15a4d3c19b3adfae1cec8d328b6bda540691026b');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:0px 6px 6px 0px;
-  } */
+    background-position: center;
+  }
 
   .contact_form .info-contact {
     padding: 50px;
   }
 
   .form_data {
-    padding: 40px 40px;
+    padding: 40px 0px;
   }
 
   .form_data .form-control:focus {
@@ -311,6 +308,46 @@ font-weight: bold;
   .box_email a:hover {
   background-color: #fff;
   color: #000000;
+  }
+
+  .footer-section {
+    background-image: url('../images/Media\,951687\,smxx-2000x1173.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  footer {
+    padding: 50px 0px;
+    background: #000000de;
+  }
+
+  footer h5 {
+    padding-top: 0px;
+    color: #fff;
+    padding-bottom: 15px;
+  }
+
+  footer hr {
+    color: #fff;
+  }
+
+  footer .logos img {
+    height:40px;
+    padding-right: 10px;
+  }
+
+  footer a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 0px;
+  }
+
+  
+
+
+  footer i {
+    color: #fff;
+    padding: 10px;
   }
   
 

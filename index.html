@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Css Cdn Link  -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
@@ -28,42 +28,20 @@
         <!-- Header  -->
         <div class="header-section">
             <header>
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                      <a class="navbar-brand" href="#">Navbar</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Dropdown
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <li><a class="dropdown-item" href="#">Action</a></li>
-                              <li><a class="dropdown-item" href="#">Another action</a></li>
-                              <li><hr class="dropdown-divider"></li>
-                              <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                          </li>
-                        </ul>
-                        <form class="d-flex">
-                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                          <button class="btn btn-outline-success" type="submit">Search</button>
-                        </form>
-                      </div> -->
+                <div class="container p-0">
+                    <div class="row">
+                        <div class="col-12">
+                            <nav class="navbar navbar-expand-lg navbar-light ">
+                                <div class="container p-0">
+                                  <a class="navbar-brand" href="#"><img src="https://emailauth.io/wp-content/uploads/2022/10/EA-copy-153x45.png" alt="logo" class="img-fluid"></a>
+                                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                  </button>
+                                </div>
+                              </nav>
+                        </div>
                     </div>
-                  </nav>
+                </div>
             </header>
 
         </div>
@@ -82,7 +60,7 @@
                                 real-time
                                 from any device without compromising performance.</p>
                             <div class="py-1 py-lg-3">
-                                <a href="#">Book a Demo
+                                <a href="#form">Book a Demo
                                 </a>
                             </div>
 
@@ -275,70 +253,70 @@
         </div>
 
         <!-- Contact Form design  -->
-        <div class="contact_form">
-            <div class="container">
+        <div class="contact_form" id="form">
+            <div class="container" >
                 <div class="row contact-bg">
-                    <div class="col-12 col-lg-6 info-contact d-flex align-items-center text-center">
+                    <div class="col-12 col-lg-6 info-contact d-flex align-items-center ">
                         <div>
-                            <h2>Unleash the Power of Enterprise Email Security - Discover What's Possible!
-                            </h2>
-                          
+                            <h3>Unleash the Power of Enterprise Email Security - Discover What's Possible!
+                            </h3>
+                            <div class="form_data">
+                                <form class="row g-3">
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-floating ">
+                                            <input type="text" class="form-control" id="floatingFirst"
+                                                placeholder="First Name" required>
+                                            <label for="floatingFirst">Full Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-floating ">
+                                            <input type="email" class="form-control" id="floatingBEmail"
+                                                placeholder="Business Email" required>
+                                            <label for="floatingBEmail">Business Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="floatingCompany"
+                                                placeholder="Designation" required>
+                                            <label for="floatingCompany">Designation</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-lg-6">
+                                        <div class="form-floating">
+                                            <select class="form-select" id="floatingSelect"
+                                                aria-label="Floating label select example">
+                                                <option selected>Employees</option>
+                                                <option value="1">0-49</option>
+                                                <option value="2">50-500</option>
+                                                <option value="3">501-2,500</option>
+                                                <option value="4">2,501-2,5000</option>
+                                                <option value="5">2,5001+</option>
+    
+                                            </select>
+                                            <label for="floatingSelect">Select...</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="Number" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">
+                                </div>
+                                   
+                                   
+                                   
+                                    <div class="col-12 ">
+                                        <div class="d-grid">
+                                            <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                        
 
                     </div>
-                    <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
-                        <div class="form_data">
-                            <form class="row g-3">
-                                <div class="col-12 ">
-                                    <div class="form-floating mb-2">
-                                        <input type="text" class="form-control" id="floatingFirst"
-                                            placeholder="First Name" required>
-                                        <label for="floatingFirst">Full Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 ">
-                                    <div class="form-floating mb-2">
-                                        <input type="email" class="form-control" id="floatingBEmail"
-                                            placeholder="Business Email" required>
-                                        <label for="floatingBEmail">Business Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 ">
-                                    <div class="form-floating mb-2">
-                                        <input type="text" class="form-control" id="floatingCompany"
-                                            placeholder="Designation" required>
-                                        <label for="floatingCompany">Designation</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 ">
-                                    <div class="form-floating">
-                                        <select class="form-select" id="floatingSelect"
-                                            aria-label="Floating label select example">
-                                            <option selected>Employees</option>
-                                            <option value="1">0-49</option>
-                                            <option value="2">50-500</option>
-                                            <option value="3">501-2,500</option>
-                                            <option value="4">2,501-2,5000</option>
-                                            <option value="5">2,5001+</option>
-
-                                        </select>
-                                        <label for="floatingSelect">Select...</label>
-                                    </div>
-                                </div>
-                                <div class="col-12 ">
-                                    <input type="Number" id="mobile_code" class="form-control" placeholder="Phone Number" name="name">
-                            </div>
-                               
-                               
-                               
-                                <div class="col-12">
-                                    <div class="d-grid">
-                                        <button type="submit" class="btn btn-primary">Request a Demo</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
+                    <div class="col-12 col-lg-6 d-flex justify-content-center bg-img">
+                        
                     </div>
                 </div>
             </div>
@@ -347,7 +325,7 @@
 
         <!-- Today's Security for Tomorrow's Emails. -->
         <div class="emails">
-            <div class="container">
+            <div class="container" >
                 <div class="row emailbox">
                     <div class="col-12  position-relative p-0">
                         <video class="fullscreen" src="./images/video/Video for Landing Page.mp4" playsinline autoplay muted loop>
@@ -360,7 +338,7 @@
                                     </h2>
                                     <p>Your organization's most valuable yet vulnerable asset is EMAIL. Enable real-time, one-click, autonomous email protection from phishing and spoofing that reinforces the core of your business.
                                     </p>
-                                    <a href="#">Book a demo</a>
+                                    <a href="#form">Book a demo</a>
                                 </div>
                             </div>
                            
@@ -371,6 +349,64 @@
             </div>
         </div>
  </div>
+
+     <!-- footer section  -->
+<div class="footer-section">
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-xl-3">
+            <div>
+                <img src="https://emailauth.io/wp-content/uploads/2022/10/EA-copy-153x45.png" alt="logo" class="img-fluid">
+
+
+                <h5 class="pt-2 pt-md-4">Member of:</h5>
+              
+                <div class="logos">
+                    <img src="https://emailauth.io/wp-content/uploads/2020/08/GCA-white-300x113.png" alt="logo1" class="img-fluid">
+                    <img src="https://emailauth.io/wp-content/uploads/2020/08/Lorca-White-300x113.png" alt="logo2" class="img-fluid">
+                    <img src="https://emailauth.io/wp-content/uploads/2020/08/Lorca-White-300x113.png" alt="logo3" class="img-fluid">
+                </div>
+
+            </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-3">
+                <div>
+                    <h5>Tools</h5>
+              
+             <p> <a href="https://emailauth.io/dmarc-generator">  Check your DMARC </a></p> 
+             <p>   <a href="https://emailauth.io/dkim-record-checker">   DKIM Record Checker</a></p> 
+             <p>      <a href="https://emailauth.io/spf-record-checker">   Check your SPF</a></p> 
+                <p>          <a href="https://emailauth.io/dmarc-generator">   DMARC Record  Generator</a> </p> 
+                </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-3">
+                    <div>
+                        <h5>Contact Us</h5>
+                  
+                      <p> Email: <a href="mailto:hello@emailauth.io"> hello@emailauth.io</a></p>
+                       <p>Phone: <a href="tel:+44 207 993 0067"> +44 207 993 0067</a></p>
+                  
+                    <p class="pt-1 pt-md-2">Offices: UK • UAE • India • Singapore</p>
+                    </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-xl-3 ">
+                        <div>
+                            <h5>Connect with us!</h5>
+
+                        <div class="icons"> 
+                          <a href="https://www.linkedin.com/company/emailauth/?original_referer=https%3A%2F%2Femailauth.io%2F"><i class="fa-brands fa-linkedin-in"></i> </a>
+                            <a href="https://twitter.com/emailauth_io/"> <i class="fa-brands fa-twitter"></i></a>
+                                <a href="https://www.facebook.com/emailauth.io/"> <i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/emailauth/">  <i class="fa-brands fa-instagram"></i></a>
+                                        <a href="https://www.youtube.com/channel/UCIVihevUMYG2j9jLFC0NHdg">  <i class="fa-brands fa-youtube"></i></a></div>
+                        </div>
+                        </div>
+        </div>
+    </div>
+</footer>
+</div>
+
     </main>
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
