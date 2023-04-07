@@ -121,6 +121,31 @@ font-weight: bold;
     font-weight: 100;
   }
 
+  .circle-box {
+width: 550px;
+    height:550px;
+    border-radius: 100%;
+    padding: 90px;
+    background-color: var(--main-bg-color);
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 20px, rgba(255, 255, 255, 0.1) 0px 0px 20px, rgba(255, 255, 255, 0.1) 0px 0px 20px;
+  }
+
+  .being_phished .card {
+    background-color: #ffffff0a;
+    border: none;
+    color: #fff;
+    padding:40px 40px 30px 40px;
+   height: 442px;
+  }
+
+  .being_phished .card img {
+    height: 120px;
+    padding-bottom: 20px;
+  }
+
+  .being_phished .card ul li {
+    list-style: none;
+  }
 
 
 
@@ -223,6 +248,7 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
+background-color: #041C39;
 }
 .emails .emailbox {
 background-color: #000000;
@@ -276,6 +302,7 @@ font-weight: bold;
   background-color: #fff;
   color: #000000;
   }
+  
 
 
  
