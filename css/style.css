@@ -144,7 +144,9 @@ width: 550px;
   }
 
   .being_phished .card ul li {
-    list-style: none;
+text-align: left;
+    font-weight: 100;
+    font-size: 14px;
   }
 
 

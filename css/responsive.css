@@ -1,0 +1,82 @@
+ /* X-Small devices (portrait phones, less than 576px)
+ No media query for `xs` since this is the default in Bootstrap */
+
+  
+/* small devices 320  */
+
+@media only screen and (max-width: 320px) and (min-width: 1px)  {
+
+  }
+
+/*  Small devices (landscape phones, 576px and up) */
+@media only screen and (max-width: 567px) and (min-width: 320px)  {
+  
+  }
+  
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) and (min-width: 567px) {
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  
+ }
+
+/* // X-Large devices (large desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) and (min-width: 992px) {
+   
+}
+
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+   
+h1 {
+    font-size: 50px;
+  }
+  
+h2 {
+    font-size: 40px;
+  }
+  
+h3 {
+    font-size: 30px;
+  }
+  
+h4 {
+    font-size: 25px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  h6 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+
+
+  .circle-box {
+    width: 450px;
+    height: 450px;
+    padding: 80px;
+}  
+
+.being_phished .card {
+    padding: 20px;
+    height: 350px;
+}
+
+.contact_form .info-contact {
+    padding: 28px;
+}
+
+
+ }
