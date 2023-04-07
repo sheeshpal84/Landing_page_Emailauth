@@ -50,7 +50,7 @@ h4 {
   }
 
 h5 {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     color: var(--text-color);
   }
@@ -76,6 +76,18 @@ h5 {
 
 .contact_form .info-contact {
     padding:  30px;
+}
+
+.email-security .card {
+    height: 177px;
+}
+
+.email-security .card p {
+    font-size: 14px !important;
+}
+
+.email-security .card .card-body {
+    padding: 2rem;
 }
 
 

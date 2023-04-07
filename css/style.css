@@ -128,8 +128,8 @@ width: 550px;
     height:550px;
     border-radius: 100%;
     padding: 90px;
-    background-color: #041C39;
-    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 20px, rgba(255, 255, 255, 0.3) 0px 0px 20px, rgba(255, 255, 255, 0.3) 0px 0px 20px;
+    background-color: #3C67FF;
+    box-shadow: rgba(11, 150, 231, 0.3) 0px 0px 20px, rgba(11, 109, 236, 0.3) 0px 0px 20px, rgba(9, 161, 231, 0.3) 0px 0px 20px;
   }
 
   .being_phished .card {
@@ -258,10 +258,10 @@ height: 100vh;
 display: flex;
 justify-content: center;
 align-items: center;
-background-color: #041C39;
 }
 .emails .emailbox {
 background-color: #000000;
+box-shadow: rgba(3, 153, 240, 0.8) 0px 0px 10px;
 }
 
 video.fullscreen {
