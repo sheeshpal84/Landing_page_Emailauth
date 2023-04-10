@@ -79,6 +79,7 @@ h5 {
 
 .contact_form {
   height: auto;
+  padding: 50px 0px;
 }
 
 .contact_form .contact-bg {
@@ -154,7 +155,7 @@ h5 {
   }
 
   .email-security {
-    padding: 50px 0px;
+    padding: 50px 20px;
 }
 
 .email-security .card h5 {
@@ -191,6 +192,7 @@ h5 {
 
 .contact_form {
   height: auto;
+  padding: 50px 0px;
 }
 
 .contact_form .contact-bg {
@@ -198,7 +200,7 @@ h5 {
 }
 
 .contact_form .info-contact {
-  padding: 20px;
+  padding: 50px 20px;
 }
 
 .form_data {
@@ -225,6 +227,21 @@ video.fullscreen {
   height: 60vh;
 }
 
+.header-section {
+  padding: 0px 20px;
+}
+
+.hero_section {
+  padding: 0px 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.emails {
+  padding:  50px 0px;
+}
 
   }
   

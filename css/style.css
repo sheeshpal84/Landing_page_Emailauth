@@ -93,7 +93,7 @@ font-weight: bold;
 
 
   .email-security {
-    padding: 100px 0px;
+    padding: 150px 0px;
   }
 
   .email-security .card {
@@ -109,11 +109,11 @@ font-weight: bold;
 
   .being_phished {
     /* background-color: #041C39; */
-    padding: 100px 0px;
+    padding: 150px 0px;
     /* background-image: url('../images/Surfaces_Cloud_LP_Hero@2x.png'); */
     background-size: cover;
     background-repeat: no-repeat;
-    height: 100vh;
+    /* height: 100vh; */
 
   }
 
@@ -153,13 +153,14 @@ text-align: left;
   }
 
   .contact_form {
-    height: 100vh;
+    padding: 150px 0px;
    display: flex;
    justify-content: center;
    align-items: center;
-    background-image: url('../images/home14-bg2.png');
+    background-image: url('../images/Slide\ 16_9\ -\ 5.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
   }
 
   .contact_form .contact-bg {
@@ -171,15 +172,16 @@ border-radius: 6px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(5px);
 -webkit-backdrop-filter: blur(5px);
-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+box-shadow: rgba(3, 153, 240, 0.8) 0px 0px 10px;
   }
 
 
   .bg-img {
-    background-image: url('https://img.freepik.com/free-photo/female-hacker-cracking-binary-code_53876-96301.jpg?w=1060&t=st=1680777695~exp=1680778295~hmac=97ef6701ae0ab00f70532c7a15a4d3c19b3adfae1cec8d328b6bda540691026b');
+    background-image: url('../images/solving-mental-problems-psychological-assistance.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius:0px 6px 6px 0px;
+    background-position: center;
     background-position: center;
   }
 
@@ -251,10 +253,11 @@ font-weight: bold;
 
 
 .emails {
-height: 100vh;
+/* height: 100vh; */
 display: flex;
 justify-content: center;
 align-items: center;
+padding: 150px 0px;
 }
 .emails .emailbox {
 background-color: #000000;
