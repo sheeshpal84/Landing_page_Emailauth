@@ -119,6 +119,13 @@ video.fullscreen {
   height: 60vh;
 }
 
+.moblie_screen {
+  background: #000000ab;
+    padding: 50px 20px;
+}
+
+
+
 
   }
 
@@ -251,6 +258,11 @@ video.fullscreen {
 
 .emails .emailbox {
 margin: 0px 20px;
+}
+
+.moblie_screen {
+  background: #000000ab;
+    padding: 50px 20px;
 }
 
   }
