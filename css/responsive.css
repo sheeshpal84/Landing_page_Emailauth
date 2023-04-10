@@ -126,6 +126,10 @@ video.fullscreen {
     padding: 50px 20px;
 }
 
+footer {
+  padding: 50px 20px;
+  background: #000000de;
+}
 
 
 
@@ -267,6 +271,11 @@ margin: 0px 20px;
 .moblie_screen {
   background: #000000ab;
     padding: 50px 20px;
+}
+
+footer {
+  padding: 50px 20px;
+  background: #000000de;
 }
 
   }
