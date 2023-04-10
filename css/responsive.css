@@ -105,6 +105,14 @@ footer h5 {
   padding: 10px 0px;
 }
 
+video.fullscreen {
+  height: 60vh;
+}
+
+.overlay {
+  height: 60vh;
+}
+
 
   }
 
@@ -208,6 +216,16 @@ h5 {
 footer h5 {
   padding: 10px 0px;
 }
+
+video.fullscreen {
+  height: 60vh;
+}
+
+.overlay {
+  height: 60vh;
+}
+
+
   }
   
 /* // Medium devices (tablets, 768px and up) */
