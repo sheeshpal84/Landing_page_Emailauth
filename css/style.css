@@ -55,7 +55,7 @@ h5 {
     --main-bg-color: #000000;
     --sec-color: #3C67FF;
     --text-color: #ffffff; 
-    --text-color-p: RGB(184, 186, 204);
+    --text-color-p: #ffffff;
     ; 
   }
   
@@ -63,14 +63,15 @@ h5 {
 
   .hero_section {
     margin-top: -71px !important;
-    height: 100vh;
-    background-image: url('../images/bg.png');
+    /* height: 100vh; */
+    padding: 250px 0px;
+    background-image: url('../images/Slide\ 16_9\ -\ 6.png');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-position: bottom;
+    background-position: center;
   }
 
   .hero_section a {
@@ -98,7 +99,7 @@ font-weight: bold;
 
   .email-security .card {
     background-color: #ffffff0a;
-    margin: 10px 0px;
+    margin: 15px 0px;
     height: 186px;
   }
 
@@ -122,6 +123,7 @@ font-weight: bold;
     padding: 10px 0px;
     font-size: 22px;
     font-weight: 100;
+    padding-top: 20px;
   }
 
   .circle-box {
@@ -129,8 +131,15 @@ width: 550px;
     height:550px;
     border-radius: 100%;
     padding: 90px;
-    background-color: #3C67FF;
+    background-image: url('../images/Untitled-2-01-01-01.png');
+    /* background-color: #3C67FF; */
     box-shadow: rgba(11, 150, 231, 0.3) 0px 0px 20px, rgba(11, 109, 236, 0.3) 0px 0px 20px, rgba(9, 161, 231, 0.3) 0px 0px 20px;
+  }
+
+  .circle-box h2  {
+    text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
   }
 
   .being_phished .card {
@@ -138,11 +147,16 @@ width: 550px;
     border: none;
     color: #fff;
     padding:40px 40px 30px 40px;
-   height: 442px;
+   height: 376px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   /* border: 1px solid #fff; */
+   box-shadow: rgba(11, 150, 231, 0.3) 0px 0px 20px, rgba(11, 109, 236, 0.3) 0px 0px 20px, rgba(9, 161, 231, 0.3) 0px 0px 20px;
   }
 
   .being_phished .card img {
-    height: 120px;
+    width: 100px;
     padding-bottom: 20px;
   }
 
@@ -150,7 +164,15 @@ width: 550px;
 text-align: left;
     font-weight: 100;
     font-size: 14px;
+    list-style: none;
   }
+
+  .being_phished  .card ul li:before {    
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -15px;
+    color:  var(--sec-color);
+}
 
   .contact_form {
     padding: 150px 0px;
@@ -345,12 +367,15 @@ font-weight: bold;
     padding: 10px 0px;
   }
 
-  
-
+   
 
   footer i {
     color: #fff;
     padding: 10px;
+  }
+
+  .logos {
+    display: grid;
   }
   
 
