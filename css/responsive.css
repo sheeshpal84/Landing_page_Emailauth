@@ -37,9 +37,7 @@ h5 {
     font-size: 14px;
   }
 
-  .hero_section  p {
-    padding:15px 0px 30px 0px;
-  }
+  
 
   .email-security {
     padding: 50px 0px;
@@ -105,6 +103,11 @@ h5 {
   padding: 50px 20px;
 }
 
+.box_email p {
+  padding: 0px;
+  margin: 0px;
+}
+
 .logos {
   display: grid;
 }
@@ -131,12 +134,310 @@ footer {
   background: #000000de;
 }
 
+.circle-box  {
+  background-position: right;
+}
 
 
   }
 
 /*  Small devices (landscape phones, 576px and up) */
 @media only screen and (max-width: 567px) and (min-width: 320px)  {
+  h1 {
+    font-size: 30px;
+  }
+  
+h2 {
+    font-size: 25px;
+  }
+  
+h3 {
+    font-size: 22px;
+  }
+  
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  h6 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  
+
+  .email-security {
+    padding: 50px 20px;
+}
+
+.email-security .card h5 {
+  font-size: 16px;
+} 
+
+.email-security .card {
+  height: 144px;
+}
+
+
+.being_phished {
+  padding: 50px 0px;
+  height: auto;
+}
+
+.circle-box {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom:40px;
+}
+
+.being_phished h6 {
+  padding: 0px 0px;
+  font-size: 15px;
+}
+
+.being_phished .card {
+  margin-bottom: 30px;
+  padding: 25px;
+  height: 350px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.contact_form {
+  height: auto;
+  padding: 50px 0px;
+}
+
+.contact_form .contact-bg {
+  height: auto;
+  margin: 0px 20px;
+}
+
+.contact_form .info-contact {
+  padding: 50px 20px;
+}
+
+.form_data {
+  padding: 20px 0px;
+}
+
+.box_email {
+  padding: 50px 20px;
+}
+
+.box_email p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.logos {
+  display: grid;
+}
+
+footer h5 {
+  padding: 10px 0px;
+}
+
+video.fullscreen {
+  height: 60vh;
+}
+
+.overlay {
+  height: 60vh;
+}
+
+.header-section {
+  padding: 0px 20px;
+}
+
+.hero_section {
+  padding: 200px 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.emails {
+  padding:  50px 0px;
+}
+
+.emails .emailbox {
+margin: 0px 20px;
+}
+
+.moblie_screen {
+  background: #000000ab;
+    padding: 50px 20px;
+}
+
+footer {
+  padding: 50px 20px;
+  background: #000000de;
+}
+.circle-box  {
+  background-position: right;
+}
+
+  }
+  
+/* // Medium devices (tablets, 768px and up) */
+@media only screen and (max-width: 768px) and (min-width: 567px) {
+  h1 {
+    font-size: 30px;
+  }
+  
+h2 {
+    font-size: 25px;
+  }
+  
+h3 {
+    font-size: 22px;
+  }
+  
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  h6 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  .hero_section  p {
+    padding:15px 0px 30px 0px;
+  }
+
+  .email-security {
+    padding: 50px 20px;
+}
+
+.email-security .card h5 {
+  font-size: 16px;
+} 
+
+.email-security .card {
+  height: 144px;
+}
+
+
+.being_phished {
+  padding: 50px 0px;
+  height: auto;
+}
+
+.circle-box {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom:40px;
+}
+
+.being_phished h6 {
+  padding: 0px 0px;
+  font-size: 15px;
+}
+
+.being_phished .card {
+  margin-bottom: 30px;
+  padding: 25px;
+  height: 350px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.contact_form {
+  height: auto;
+  padding: 50px 0px;
+}
+
+.contact_form .contact-bg {
+  height: auto;
+  margin: 0px 20px;
+}
+
+.contact_form .info-contact {
+  padding: 50px 20px;
+}
+
+.form_data {
+  padding: 20px 0px;
+}
+
+.box_email {
+  padding: 50px 20px;
+}
+
+.logos {
+  display: grid;
+}
+
+footer h5 {
+  padding: 10px 0px;
+}
+
+video.fullscreen {
+  height: 60vh;
+}
+
+.overlay {
+  height: 60vh;
+}
+
+.header-section {
+  padding: 0px 20px;
+}
+
+.hero_section {
+  padding: 200px 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.emails {
+  padding:  50px 0px;
+}
+
+.emails .emailbox {
+margin: 0px 20px;
+}
+
+.moblie_screen {
+  background: #000000ab;
+    padding: 50px 20px;
+}
+
+footer {
+  padding: 50px 20px;
+  background: #000000de;
+}
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media only screen and (max-width: 992px) and (min-width: 768px) {
   h1 {
     font-size: 30px;
   }
@@ -278,21 +579,152 @@ footer {
   background: #000000de;
 }
 
-  }
-  
-/* // Medium devices (tablets, 768px and up) */
-@media only screen and (max-width: 768px) and (min-width: 567px) {
 
-}
-
-/* // Large devices (desktops, 992px and up) */
-@media only screen and (max-width: 992px) and (min-width: 768px) {
-  
  }
 
 /* // X-Large devices (large desktops, 1200px and up) */
 @media only screen and (max-width: 1200px) and (min-width: 992px) {
-   
+  h1 {
+    font-size: 30px;
+  }
+  
+h2 {
+    font-size: 25px;
+  }
+  
+h3 {
+    font-size: 22px;
+  }
+  
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+    color: var(--text-color);
+  }
+
+h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--text-color);
+  }
+  h6 {
+    font-size: 16px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+
+  .hero_section  p {
+    padding:15px 0px 30px 0px;
+  }
+
+  .email-security {
+    padding: 50px 20px;
+}
+
+.email-security .card h5 {
+  font-size: 16px;
+} 
+
+.email-security .card {
+  height: 144px;
+}
+
+
+.being_phished {
+  padding: 50px 0px;
+  height: auto;
+}
+
+.circle-box {
+  width: 250px;
+  height: 250px;
+  padding: 20px;
+  margin-bottom:40px;
+}
+
+.being_phished h6 {
+  padding: 0px 0px;
+  font-size: 15px;
+}
+
+.being_phished .card {
+  margin-bottom: 30px;
+  padding: 25px;
+  height: 350px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.contact_form {
+  height: auto;
+  padding: 50px 0px;
+}
+
+.contact_form .contact-bg {
+  height: auto;
+  margin: 0px 20px;
+}
+
+.contact_form .info-contact {
+  padding: 50px 20px;
+}
+
+.form_data {
+  padding: 20px 0px;
+}
+
+.box_email {
+  padding: 50px 20px;
+}
+
+.logos {
+  display: grid;
+}
+
+footer h5 {
+  padding: 10px 0px;
+}
+
+video.fullscreen {
+  height: 60vh;
+}
+
+.overlay {
+  height: 60vh;
+}
+
+.header-section {
+  padding: 0px 20px;
+}
+
+.hero_section {
+  padding: 200px 20px;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.emails {
+  padding:  50px 0px;
+}
+
+.emails .emailbox {
+margin: 0px 20px;
+}
+
+.moblie_screen {
+  background: #000000ab;
+    padding: 50px 20px;
+}
+
+footer {
+  padding: 50px 20px;
+  background: #000000de;
+}
+  
 }
 
 /* // XX-Large devices (larger desktops, 1400px and up) */
